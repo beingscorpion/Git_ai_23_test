@@ -168,6 +168,17 @@ from calculator import Calculator
 # def test_power(calculator, base, exponent, expected):
 #     assert calculator.power(base, exponent) == expected
 
+# @pytest.mark.parametrize("a, b, expected", [
+# (2, 3, 8),
+# (3, 2, 9),
+# (2, 0, 1),
+# (2, -2, 0.25), # Should be 1/(2^2) = 0.25
+# (10, -1, 0.1) # Should be 1/10 = 0.1
+# ])
+# def test_power_parameterized(calculator, a, b, expected):
+#     assert calculator.power(a, b) == pytest.approx(expected)
+
+
 # -------------------------------------------------------------------------------------------------------
 # New functions
  
