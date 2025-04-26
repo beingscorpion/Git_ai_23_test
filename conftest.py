@@ -43,3 +43,4 @@ class PreciseCalculator(Calculator):
 @pytest.fixture
 def precise_calculator():
     return PreciseCalculator(precision=2)
+

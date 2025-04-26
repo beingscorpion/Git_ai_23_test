@@ -55,3 +55,4 @@ class Calculator:
             a, b = b, a + b
         return b
 
+
